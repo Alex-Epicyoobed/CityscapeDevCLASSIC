@@ -11,7 +11,8 @@ funtion setup()
   print("------YOUR NAME: "..username.."----")
   print("-----------------------------------")
   if username=="Larry" then
-    larrymode()
+    file = io.read(larrymode.lua)
   end
 end
+setup()
 
